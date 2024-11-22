@@ -1,15 +1,26 @@
 body{
+    /* width: 100%; */
     background-color: black;
     color: white;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    gap: 1%;
+    flex-wrap: wrap;
 }
 .main{
-    width: 25%;
+    height: 430px;
+    width: 240px;
+    border: 2px solid blue;
+    margin: 10px 0px;
+    padding: 0px 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    transition: 0.3s ease;
+}
+.main:hover{
+    box-shadow: teal 8px 10px 15px 0px;
 }
 .main>input{
     height: 20px;
